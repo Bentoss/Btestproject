@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset= "UTF-8">
+    <link rel="stylesheet" href="misenforme.css" />
+</head>
+<body >
+     <div>
+      <header> <!--barre de navigation et logo-->
+         <a href="index.html"' title="retouner a la page d'acceuil"> 
+             <img src="images/logo_new.jpg" class="imageflottante"  alt="logo"/></a>
+         <nav class="navigation">
+          <ul>
+          <li><a href="index.html">Accueil</a></li> 
+          <li><a href="apropos.html">Qui sommes-nous</a></li> 
+         <li><a href="activities.html">Nos activites</a></li> 
+          <li><a href="galerie.html"> Notre Galerie</a></li>
+          <li><a href="contact.html">Contactez-nous</a></li>
+           </ul>
+        </nav>
+     </header>
+    </div>
+
+    <div class="formulaire">
+        <fieldset>  <!--le formulaire à remplir par l'internaute pour nous contacter-->
+           <form method="post" >
+           <p><label for="text">Nom</label>   
+            <input type="text" name="nomclient"/></p>
+           <p> <label for="text" >Prenoms</label>
+            <input type="text" name="prenomclient"/></p>
+            <p><label for="text">Email</label>
+            <input type="text" name="emailclient"/></p>
+             <p> <label for="pays" class="case-a-remplir">Choississez votre pays</label><br>
+                 <select name="ville" > <!--liste deroulante-->
+                       <option value="Benin">Benin</option>
+                       <option value="Bresil">Bresil</option>
+                       <option value="Cameroon">Cameroon</option>
+                       <option value="Darnmark">Darnmark</option>
+                       <option value="Estonie">Estonie</option>
+                       <option value="Japon">Japon</option>
+                       <option value="Paris">Paris</option>
+                       <option value="Senegal">Senegal</option>
+                       <option value="Afrique du Sud">Afrique du Sud</option>
+                       <option value="Nigeria">Nigeria</option>
+                       <option value="Chine">Chine</option>
+                       <option value="New York">New York</option>
+                       <option value="Bruxelles">Bruxelles</option>
+                       <option value="Cote d'ivoire">Cote d'ivoire</option>
+                       <option value="Dubai">Dubai</option>
+                 </select><br>
+         <p> <label for="message" >Ecrivez-nous un message</label><br>
+         <textarea name="messagerequest" cols="30" rows="8" overflow: auto></textarea> </p>
+         <!--zone de texte sans debordement-->
+         <input type="submit" value="Envoyer" />
+      </fieldset>
+    </div>
+     <aside>
+        <div class="reseaux-sociaux">
+            <figcaption font-size="20px">Rejoignez-nous sur:</figcaption>
+            <a href="#"> <img src="images/logo-facebook.png" alt="logo-facebook"  width="40px" height="40px"></a>
+            <a href="#"> <img src="images/intagram-logo.png" alt="logo-instagram"  width="40px" height="40px"></a>
+            <a href="#"> <img src="images/logo-twiter.png" alt="logo-twiter"  width="40px" height="40px"></a>
+            <a href="#"> <img src="images/logo-whatsapp.jpg" alt="logo-whatsapp" width="40px" height="40px"></a>
+        </div>
+     </aside>
+      <footer> 
+        <div >
+            <p> Copyright &copy; 2020 Bentoss <p>
+            <p>contact: email: www.afriksfood@gmail.com Tel: +229 98 00 00 00 Cotonou-Benin.
+                 Ouvert: Lundi au Samedi 10h-23h. </p>
+     </footer>
+     </body>
+     </html>

@@ -1,0 +1,152 @@
+      .imageflottante /*positionnement du logo */
+       {    
+           float: left;
+           padding-left: 20px;
+           width:75px;
+           height:70px;
+           position:fixed;
+           z-index: 1; left: 0; right: 0 ;top:0;
+       } 
+   
+     body/*mise en forme du corps de toutes les pages*/
+         { 
+          background :url("images/arriere-plan.png") fixed no-repeat  ;
+           width:100%; height:1000px;
+           padding-left: 0px;
+          padding-top: 40px;
+          margin:auto ; bottom: 100px;
+        }
+     .fondblanc/*mise en forme du corps de la pages galerie*/
+       {
+      background-color: white; 
+      z-index: 2; 
+      padding-bottom: 80px; 
+      padding-left:0px ;
+       }
+   .information  /*mise en forme des texte qui s'affichent dans le body */
+      { 
+      margin-top:50px; 
+      margin-bottom:10px;
+      padding-left: 100px;
+      text-align:justify; 
+      text-justify: inter-word; 
+      font-size: 30px;
+      color:whitesmoke; width: 70%;
+      font-weight: lighter;
+      }
+     div>fieldset/*mise en forme du formulaire. centrer bordur et arriereplan */
+      {
+       margin-top: 50px; 
+      margin-left:30px ;
+      background-color:transparent;
+      border:black 1px;
+      display:block;
+       text-align:justify;}
+  .formulaire/*mise en forme texte du formulaire*/
+      {
+         color:white;
+       margin: auto;
+     }  
+ .navigation /*mise en forme barre de navigation*/
+     {
+      text-align: center;
+      background-position:fixed;  left: 0; right: 0 ;top:0; height: 70px; width: 100%;
+      position: fixed ;
+      background-color: white;
+      color: red;
+    } 
+ nav ul /*liens sans puce*/
+     {
+      list-style-type: none;
+     }
+ nav li /*alignement des liens de la barre de navigation*/
+    {
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 10px;
+    }
+ nav a/*forme des ancres*/
+    {color:orange;
+      font-size: 1.2em;
+      padding-bottom: 2px; 
+       text-decoration: none;
+    }
+ nav a:hover /* Apparence au survol des liens */
+   { 
+    font-size:1.2em ;
+    border-bottom: 3px;
+    text-decoration: underline;
+   } 
+ footer/*pied de page*/
+    { width: 100%; height: 75px;
+        color:white;
+        background-color: black;
+        text-align: center;
+        position: fixed; bottom: 0; left: 0; right: 0 ; 
+    } 
+    #bienvenue 
+    {
+      text-transform: uppercase;
+      font-family: Verdana, Geneva, Tahoma, sans-serif, Tahoma, Geneva;
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      font-size: 70px;
+    }
+    .majuscule/*mot en majuscule*/
+    {
+      text-transform: uppercase;
+      font-family: Verdana, Geneva, Tahoma, sans-serif, Tahoma, Geneva;
+      color: orange;
+      font-weight: bold;
+      font-size: 50px;
+      text-align: center;
+    }
+    #chez
+    { text-transform:lowercase;
+      font-family: Verdana, Geneva, Tahoma, sans-serif, Tahoma;
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      font-size: 70px;
+    }
+    #nomEntreprise
+    {
+      text-transform: uppercase;
+      font-family: Verdana, Geneva, Tahoma, sans-serif, Tahoma;
+      color: rgb(255, 132, 2);
+      font-weight: bold;
+      font-size: 70px;
+    }
+   
+    .reseaux-sociaux/*images-liens vers les reseaux*/
+    {  bottom: 300px; 
+      width: 50px;
+      height: 50px;
+      float: right;
+      position:fixed;
+      right: 30px ;
+       } 
+   a img:hover/*apparence au survol des images-liens vers les reseaux*/
+        {
+          width: 80px;
+          height: 80px;
+        }
+       
+   p img ,figcaption p,h1/*centrer et  des textes et images de la page galerie*/
+       {  
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+          width: 50%;
+         height:50%; 
+       }
+figcaption p,h1/*mise en forme des textes et images de la page galerie*/
+      {
+       font-size: 1.2em ;
+       color: black;
+        text-align: center;
+       padding-bottom: 20px; 
+      } 
+  h1/*page galerie*/
+  { color: orange;
+     text-align: center;
+     font-family: Verdana;}
